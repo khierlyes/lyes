@@ -14,11 +14,17 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Button1: TButton
-    Left = 136
-    Top = 112
+    Left = 144
+    Top = 88
     Width = 473
     Height = 97
-    Caption = 'Button1'
+    Caption = 'Hi Mr Lyes'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
     OnClick = Button1Click
   end
